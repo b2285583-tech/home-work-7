@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=New+Rocker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=New+Rocker&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    </head>
+
+    <body>
+<header class="header">
+    <nav class="navigation">
+        <a href="#" class="logo">Rivo</a>
+
+        <div class="nav-links">
+            <a href="#">HOME</a>
+            <a href="#">SHOP</a>
+            <a href="#">FEATURES</a>
+            <a href="#">CONTACT</a>
+        </div>
+
+        <div class="nav-actions">
+            <a href="#" class="cart">
+                <img src="./img/header/fi-rr-shopping-bag-add.svg" alt="">
+            </a>
+            <a href="#" class="login">LOGIN</a>
+        </div>
+
+        <button class="menu-btn">☰</button>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>
+                Discover and<br>
+                Find Your Own<br>
+                Fashion!
+            </h1>
+
+            <p>
+                Explore our curated collection of stylish
+                clothing and accessories tailored to your
+                unique taste.
+            </p>
+
+            <a href="#" class="explore-btn">
+                EXPLORE NOW
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-bg"></div>
+
+            <img src="./img/header/pexels-dima-valkov-6402847 2.svg" alt="Fashion model">
+            <div class="dots dots-top"></div>
+            <div class="dots dots-bottom"></div>
+        </div>
+    </section>
+</header>
+
+<body>
+  <main class="page">
+    <section class="best-selling" aria-labelledby="section-title">
+      <header class="section-header">
+        <h1 id="section-title">Best selling</h1>
+        <p>Get in on the trend with our curated selection of best-selling styles.</p>
+      </header>
+
+      <section class="best-selling">
+        
+      <div class="product-grid">
+        <article class="product-card">
+          <img class="product-image" src="img/intro/pexels-dima-valkov-6211621 1.svg" alt="Regular Fit Long Sleeve Top">
+          <div class="product-info">
+            <h2>Regular Fit Long Sleeve Top</h2>
+            <div class="product-meta">
+              <span>$38.99</span>
+              <span class="rating">5.0 <span class="star">★</span></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="product-image" src="img/intro/pexels-dima-valkov-6211616 (1) 2.svg" alt="Black Crop Tailored Jacket">
+          <div class="product-info">
+            <h2>Black Crop Tailored Jacket</h2>
+            <div class="product-meta">
+              <span>$62.99</span>
+              <span class="rating">4.9 <span class="star">★</span></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="product-image" src="./img/intro/pexels-dima-valkov-6503007 3.svg" alt="Textured Sunset Shirt">
+          <div class="product-info">
+            <h2>Textured Sunset Shirt</h2>
+            <div class="product-meta">
+              <span>$49.99</span>
+              <span class="rating">5.0 <span class="star">★</span></span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <a class="see-all" href="#">See all <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+</html>
+</section>
+
+</body>
